@@ -8,7 +8,7 @@ require Exporter;
 
 our @ISA = qw(Exporter);
 our @EXPORT = qw(makeashorterlink makealongerlink);
-our $VERSION = sprintf "%d.%02d", '$Revision: 1.3 $ ' =~ /(\d+)\.(\d+)/;
+our $VERSION = sprintf "%d.%02d", '$Revision: 1.4 $ ' =~ /(\d+)\.(\d+)/;
 
 use LWP;
 use Carp;
@@ -62,7 +62,7 @@ MakeAShorterLink - Perl interface to makeashorterlink.com
 
 =head1 SYNOPSIS
 
-  use MakeAShorterLink;
+  use WWW::MakeAShorterLink;
 
   $short_url = makeashorterlink($long_url);
 

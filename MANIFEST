@@ -3,4 +3,6 @@ MakeAShorterLink.pm
 Makefile.PL
 MANIFEST
 README
-test.pl
+t/pod.t
+t/test.t
+META.yml                                 Module meta-data (added by MakeMaker)
