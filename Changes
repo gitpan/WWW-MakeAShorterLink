@@ -1,6 +1,36 @@
-Revision history for Perl extension MakeAShorterLink.
+2004-05-13 20:38  dave
 
-0.01  Tue Aug 27 16:59:22 2002
-	- original version; created by h2xs 1.21 with options
-		-A -X -n MakeAShorterLink
+	* Makefile.PL (1.3), lib/WWW/MakeAShorterLink.pm (1.5): Moved
+	module to ./lib
+	* MANIFEST (1.4): Moved Module to ./lib
+
+2004-05-13 20:16  dave
+
+	* MANIFEST (1.3): Added META.yaml
+	* t/pod.t (1.2): Updated pod tests
+	* lib/WWW/MakeAShorterLink.pm (1.4): Doc patch
+	* Changes (1.2): Removed Changes from CVS
+	* MANIFEST (1.2): Replaced test.t with t/*.
+	* test.pl (1.4), t/pod.t (1.1), t/test.t (1.1): Replaced test.pl
+	with t/*.
+
+2002-08-28 20:50  dave
+
+	* lib/WWW/MakeAShorterLink.pm (1.3): Renamed to
+	WWW::MakeAShorterLink.	Added makealongerlink
+	* Makefile.PL (1.2): Cleaned Makefile.PL
+	* test.pl (1.3): Added makealongerlink tests
+
+2002-08-28 09:22  dave
+
+	* lib/WWW/MakeAShorterLink.pm (1.2): Cleaned up LWP code
+	* test.pl (1.2): Changed URL in test
+
+2002-08-28 07:46  dave
+
+	* Changes (1.1.1.1), MANIFEST (1.1.1.1), Makefile.PL (1.1.1.1),
+	README (1.1.1.1), test.pl (1.1.1.1), lib/WWW/MakeAShorterLink.pm
+	(1.1.1.1): MakeAShorterLink
+	* Changes (1.1), MANIFEST (1.1), Makefile.PL (1.1), README (1.1),
+	test.pl (1.1), lib/WWW/MakeAShorterLink.pm (1.1): Initial revision
 

@@ -1,8 +1,8 @@
 Changes
-MakeAShorterLink.pm
+lib/WWW/MakeAShorterLink.pm
 Makefile.PL
 MANIFEST
 README
 t/pod.t
 t/test.t
-META.yml                                 Module meta-data (added by MakeMaker)
+META.yml

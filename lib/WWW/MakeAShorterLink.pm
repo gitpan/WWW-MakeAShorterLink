@@ -8,12 +8,11 @@ require Exporter;
 
 our @ISA = qw(Exporter);
 our @EXPORT = qw(makeashorterlink makealongerlink);
-our $VERSION = sprintf "%d.%02d", '$Revision: 1.4 $ ' =~ /(\d+)\.(\d+)/;
+our $VERSION = sprintf "%d.%02d", '$Revision: 1.5 $ ' =~ /(\d+)\.(\d+)/;
 
 use LWP;
 use Carp;
 
-# Preloaded methods go here.
 sub makeashorterlink {
   my $masl = 'http://www.makeashorterlink.com/index.php';
   my $url = shift or croak 'No URL passed to makeashorterlink';
@@ -54,7 +53,6 @@ sub makealongerlink {
 1;
 
 __END__
-# Below is stub documentation for your module. You better edit it!
 
 =head1 NAME
 
