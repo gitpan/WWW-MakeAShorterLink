@@ -1,0 +1,6 @@
+Revision history for Perl extension MakeAShorterLink.
+
+0.01  Tue Aug 27 16:59:22 2002
+	- original version; created by h2xs 1.21 with options
+		-A -X -n MakeAShorterLink
+
