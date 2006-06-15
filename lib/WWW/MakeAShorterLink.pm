@@ -1,4 +1,4 @@
-# $Id: MakeAShorterLink.pm,v 1.7 2006/06/01 18:29:46 dave Exp $
+# $Id: MakeAShorterLink.pm,v 1.8 2006/06/15 20:58:11 dave Exp $
 
 =head1 NAME
 
@@ -36,7 +36,7 @@ require Exporter;
 
 our @ISA = qw(Exporter);
 our @EXPORT = qw(makeashorterlink makealongerlink);
-our $VERSION = sprintf "%d.%02d", '$Revision: 1.7 $ ' =~ /(\d+)\.(\d+)/;
+our $VERSION = sprintf "%d.%02d", '$Revision: 1.8 $ ' =~ /(\d+)\.(\d+)/;
 
 use LWP;
 use Carp;
@@ -109,18 +109,30 @@ makeashorterlink, makealongerlink
 
 =head1 AUTHOR
 
+=over 4
+
+=item *
 Dave Cross <dave@mag-sol.com>
+
+=item *
 Original LWP hacking by Alex Page <grimoire@corinne.cpio.org>
+
+=item *
 C<makealongerlink> idea by Simon Batistoni <simon@hitherto.net>
+
+=back
 
 =head1 SEE ALSO
 
-L<perl>, L<http://makeashorterlink.com/>
+L<perl>, L<http://makeashorterlink.com/>, L<WWW::Shorten>
 
 =cut
 
 #
 # $Log: MakeAShorterLink.pm,v $
+# Revision 1.8  2006/06/15 20:58:11  dave
+# Bump version by tweaking pod
+#
 # Revision 1.7  2006/06/01 18:29:46  dave
 # Added deprecation notice.
 #
